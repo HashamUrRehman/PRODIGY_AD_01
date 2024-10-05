@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   resultContainer: {
     backgroundColor: "transparent",
     alignItems: "flex-end",
-    padding: 20,
+    padding: 21,
   },
   inputText: {
     fontSize: 36,
