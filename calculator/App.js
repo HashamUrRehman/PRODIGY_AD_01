@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
  container: {
    flex: 1,
     justifyContent: "center",
-    backgroundColor: "#1C1C1C", // Dark background similar to iPhone's calculator
+    backgroundColor: "#1C1C1C", 
   },
   resultContainer: {
     backgroundColor: "transparent",
@@ -105,11 +105,11 @@ const styles = StyleSheet.create({
   },
   inputText: {
     fontSize: 36,
-    color: "white", // White text for input
+    color: "white",
   },
   resultText: {
-    fontSize: 34,
-    color: "white", // Lighter gray for the result
+    fontSize: 35,
+    color: "white", 
   },
   buttonContainer: {
     flexDirection: "row",
@@ -118,22 +118,22 @@ const styles = StyleSheet.create({
   },
   button: {
     padding: 20,
-    borderRadius: 65, // Rounded button style similar to iPhone
+    borderRadius: 65, 
     width: 75,
     justifyContent: "center",
     alignItems: "center",
   },
   buttonText: {
     fontSize: 30,
-    color: "white", // White text for all buttons
+    color: "white", 
   },
   numberButton: {
-    backgroundColor: "grey", // Dark gray for number buttons
+    backgroundColor: "grey", 
   },
   operationButton: {
-    backgroundColor: "#FF9500", // Vibrant orange for operations like +, -, *, /
+    backgroundColor: "#FF9500", 
   },
   specialButton: {
-    backgroundColor: "grey", // Lighter gray for special buttons like C and 0
+    backgroundColor: "grey", 
   },
 });
